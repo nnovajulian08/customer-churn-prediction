@@ -1,1 +1,19 @@
+#Environments
+.venv/
+venv/
+
+#Python chache
+__pychache__/
+*.pyc 
+
+#Jupyter
+.ipynb_checkpoints/
+
+#Data (do not commit raw data)
+data/raw
+data/processed/
+
+#OS
+.DS_Store
+
 
