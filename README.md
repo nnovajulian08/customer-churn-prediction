@@ -67,7 +67,7 @@ Models were evaluated using ROC-AUC, Precision–Recall AUC, and confusion matri
 The tuned Random Forest model identifies approximately 80% of churned customers, making it suitable for retention-focused use cases.
 
 Detailed results and interpretations are available in  
-📄 **[`reports/final_report.md`](reports/final_report.md)**
+**[`reports/final_report.md`](reports/final_report.md)**
 
 ---
 
@@ -87,8 +87,8 @@ pip install -r requirements.txt
 
 2. Run notebooks in order:
 
-01_eda.ipynb
+- 01_eda.ipynb
 
-02_feature_engineering.ipynb
+- 02_feature_engineering.ipynb
 
-03_modeling.ipynb
+- 03_modeling.ipynb
