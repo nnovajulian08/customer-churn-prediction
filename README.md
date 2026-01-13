@@ -8,19 +8,34 @@ The project follows an end-to-end data science workflow including exploratory an
 ---
 
 ## Project Structure
-
+```
 customer-churn-prediction/
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   │   └── telco_churn.csv
+│   └── processed/
+│       └── churn_processed.csv
+│
 ├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ └── 03_modeling.ipynb
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_modeling.ipynb
+│
 ├── reports/
-│ ├── figures/
-│ └── final_report.md
+│   ├── figures/
+│   │   ├── roc_logistic.png
+│   │   ├── pr_logistic.png
+│   │   ├── roc_random_forest.png
+│   │   ├── pr_random_forest.png
+│   │   ├── rf_feature_importance.png
+│   │   └── logistic_coefficients.png
+│   └── final_report.md
+│
 ├── src/
+│
 ├── requirements.txt
 └── README.md
+
+```
+
 
